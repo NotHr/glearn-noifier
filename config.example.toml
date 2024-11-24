@@ -1,0 +1,11 @@
+[credentials]
+username = "your_username"
+password = "your_password"
+
+[urls]
+base = "https://login.gitam.edu"
+glearn = "https://glearn.gitam.edu"
+
+[notification]
+ntfy_url = "https://ntfy.sh/nothrglearn"
+check_delay = "5m"                       # Duration string: 5m = 5 minutes
