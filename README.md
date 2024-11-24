@@ -16,10 +16,14 @@ Glearn notifier is a tool which will periodically fetch assignments and quizzes 
 1. Download the latest release from the [releases page](https://github.com/nothr/glearn-notifier/releases)
 2. Extract the archive:
    ```bash
-   # For Linux/MacOS
-   tar xzf glearn-notifier_v1.0.0_linux_amd64.tar.gz
-   # For Windows
-   # Extract the zip file using your preferred tool
+   # Download the script
+   curl -O https://raw.githubusercontent.com/yourusername/glearn-notifier/main/install.sh
+
+   # Make it executable
+   chmod +x install.sh
+
+   # Run it
+   ./install.sh
    ```
 3. Move the binary to a directory in your PATH (Linux/MacOS):
    ```bash
